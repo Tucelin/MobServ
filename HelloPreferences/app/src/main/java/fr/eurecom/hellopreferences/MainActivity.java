@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
         }
         return true;
     }
-
+/*
     private void createNotificationChannel() {
         // Create the NotificationChannel, but only on API 26+ because
         // the NotificationChannel class is new and not in the support library
@@ -155,7 +155,7 @@ public class MainActivity extends AppCompatActivity {
              notificationManager.createNotificationChannel(channel);
              }
         }
-
+*/
     public void exitApplication (View v){
         finishAndRemoveTask();
     }
@@ -166,10 +166,9 @@ public class MainActivity extends AppCompatActivity {
     *
     * 2:
     * 3: Implement exit function: see exitApplication()
-    * 4:
-    * 5:
-    * 6:
-    * 7: Any app where you make persistent choices.
+    * 4: Use a fragment for the menu and the preferences window where you put your credentials
+    * 5: OK
+    * 6: Any app where you make persistent choices.
     *    For example a news app, where the app keeps track of which newsarticles have been read.
     *
     *
