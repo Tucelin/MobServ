@@ -23,17 +23,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="136dp"
-        android:text="Change preferences"
-        app:layout_constraintBottom_toTopOf="@+id/exitPreferences"
+        android:onClick="openDialog"
+        android:text="Delete preferences"
+        app:layout_constraintBottom_toTopOf="@+id/DeletePreferences"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/exitPreferences"
+        android:id="@+id/DeletePreferences"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="200dp"
+        android:onClick="exitApplication"
         android:text="Exit Preferences"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
